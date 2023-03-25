@@ -1,4 +1,3 @@
-def cal()
-{
-sh "echo Hello world"
+def cal() {
+  sh "echo Hello world"
 }
