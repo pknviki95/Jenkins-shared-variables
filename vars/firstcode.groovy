@@ -1,4 +1,4 @@
-def cal()
+def cal(Map params=[:])
 {
-sh "echo Hello world"
+  sh "echo ${params.name} ${params.id}"
 }
